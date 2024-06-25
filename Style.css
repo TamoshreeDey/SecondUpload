@@ -1,0 +1,138 @@
+.container{
+    height:23vh;
+    display:flex;
+    justify-content: center;
+    align-items:last baseline;
+    
+}
+#heading{
+    height: 6vh;
+    background-color: rgb(10, 10, 97);
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    height:20vmin;
+    width:25vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    float: left;   
+}
+.bg{
+    height:20vmin;
+    width:20vmin;
+    border-radius: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg:hover{
+    cursor:pointer;
+    background-color: black;
+}
+img{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 9vmin;
+    object-fit: cover;
+}
+
+#reset{
+    height:5vmin;
+    width: 10vmin;
+}
+.btnDecor{
+    background-color: red;
+    border: none;
+    border-radius: 2vmin;
+    box-shadow: 0 0 0.3rem black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.res{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreDiv{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.score{
+    justify-content: center;
+    position: relative;
+    float: left;
+    width: 30vmin;
+}
+.size{
+    display: inline;
+    padding: 0.5rem;
+    border-style: double;
+}
+p{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sizeAdjMsg{
+    margin-top: 1rem;
+    height: 8vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+#sizeAdjRes{
+    height: 10vh;
+}
+.symbol{
+    display: flex;
+    justify-content: center;
+}
+.hide{
+    display: none;
+}
+#name{
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+.dispMsg{
+    font-size:large;
+    display: inline;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    border-radius: 2vmin;
+}
+.lost{
+    font-size:large;
+    display: inline;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    border-radius: 2vmin;
+}
+.win{
+    font-size:large;
+    display: inline;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    padding: 1rem;
+    border-radius: 2vmin;
+}
+#computerScore{
+    width:18vmin;
+}
+#userScore{
+    width:18vmin
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone-Paper-Scissors</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="heading">
+        <h1>STONE-PAPER-SCISSORS</h1>
+    </div>
+    <main>
+        <div id="gameButtons">
+            <div class="container">
+                <div class="btn">
+                    <div class="bg"><img src="images/rock.png" alt="rock" id="rock"></div>
+                </div>
+                <div class="btn">
+                    <div class="bg"><img src="images/paper.png" alt="paper" id="paper"></div>
+                </div>
+                <div class="btn">
+                    <div class="bg"><img src="images/scissors.png" alt="scissors" id="scissors"></div>
+                </div>
+            </div>
+            <div id="name"> <p>--------------User's choice-------------</p> </div>
+        </div>
+        
+        <div class="symbol">
+            <div  class="score">
+                <p id="Csym"><img src="images/giphy.gif" alt="q-mark" id="questionMark"></p>
+                <p>---Computer's Choice---</p>
+            </div>
+        </div>
+        <div id="scoreDiv">
+            <div id="userScore" class="size">
+                <p id="uScore">0</p>
+                <p>Score</p>
+            </div>
+            <div id="computerScore" class="size">
+                <p id="cScore">0</p>
+                <p>Computer Score</p>
+            </div>
+        </div>
+        <div class="sizeAdjMsg" id="AdjMsg">
+            <div class="dispMsg" id="msg">
+                Play your move!
+            </div>
+        </div>
+        <div class="res" id="sizeAdjRes">
+            <button id="reset" class="btnDecor hide">Reset</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
