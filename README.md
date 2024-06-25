@@ -1,2 +1,2 @@
-# SecondUpload
+# StonePaperScissor
 Front End Web Dev
